@@ -1,9 +1,15 @@
-import React from "react";
 import "./App.css";
+import Filter from "./Components/Filter";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div> React is working Fine....</div>
+    <div className="container-fluid mx-1 my-1">
+      <Header></Header>
+      <Navbar></Navbar>
+      <Filter></Filter>
+    </div>
   );
 }
 
